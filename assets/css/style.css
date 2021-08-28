@@ -1,3 +1,21 @@
-body {
-    background-color: aquamarine;
+*{
+    background-color: rgba(255, 182, 193, 0.219);
 }
+
+#navigation {
+    padding: 20px;
+    margin: 15px;
+}
+
+#main-message {
+    color: rgba(220, 20, 60, 0.521);
+    text-align: center;
+    margin: 10px;
+}
+
+#form-section {
+    padding: 20px;
+    margin: 15px;
+    content: center;
+}
+

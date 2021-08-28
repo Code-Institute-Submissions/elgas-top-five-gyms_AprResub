@@ -1,12 +1,75 @@
-!DOCTYPE <html>
+<!DOCTYPE html>
+<html lang="en"
     <head>
         <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>30DayChallenge</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Initial commit</h1>
+        <header>
+            <nav id="navigation" class="navbar">
+                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="#">Your Plan</a>
+                <a class="navbar-brand" href="#">Inspiration</a>
+                <a class="navbar-brand" href="#">Log In</a>
+            </nav>
+            <h1 id="main-message">Make your own 30 Day Challenge Plan</h1>
+        </header>
+        <section id="form-section">
+            <form>
+                <h3>Fill in your preferences: </h3>
+                <select class="custom-select custom-select-lg mb-3">
+                    <option selected>Exercises</option>
+                    <option value="1">Squats</option>
+                    <option value="2">Glute bridge</option>
+                    <option value="3">Plank</option>
+                    <option value="4">Push ups</option>
+                </select>
+
+                <select class="custom-select custom-select-lg mb-3">
+                    <option selected>Workout goal</option>
+                    <option value="1">Start an exercise rutine</option>
+                    <option value="2">Get toned</option>
+                    <option value="3">Build muscle</option>
+                </select>
+                
+                <select class="custom-select custom-select-lg mb-3">
+                    <option selected>Start date</option>
+                    <option value="1">Today</option>
+                    <option value="2">Monday</option>
+                    <option value="3">Pick another day</option>
+                </select>
+
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    </select>
+                
+                    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                    <input type="checkbox" class="custom-control-input" id="customControlInline">
+                    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
+                    </div>
+                
+                    <button type="submit" class="btn btn-outline-danger btn-lg btn-block">Get Plan</button>
+                
+            </form>
+        </section>
+        <footer>
+            <div class="card-footer bg-transparent border-success">
+              <h5>Social media</h5>
+              <a href="https://www.facebook.com/" target="_blank">Facebook <i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/" target="_blank">Instagram <i class="fab fa-instagram"></i></a>
+              <span class="float-right"><small>&copy; Copyright 2021, Elga Smaci</small></span>
+            </div>
+          </footer>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="assets/js/script.js"></script>
     </body>
 </html>
