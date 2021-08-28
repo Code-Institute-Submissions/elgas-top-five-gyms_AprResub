@@ -1,21 +1,21 @@
-*{
-    background-color: rgba(255, 182, 193, 0.219);
+* {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    
 }
 
 #navigation {
-    padding: 20px;
-    margin: 15px;
-}
-
-#main-message {
-    color: rgba(220, 20, 60, 0.521);
-    text-align: center;
-    margin: 10px;
+    padding: 5px;
+    background-color: #e3f2fd;
+    position: sticky;
 }
 
 #form-section {
-    padding: 20px;
-    margin: 15px;
-    content: center;
+    padding: 5px;
+    margin: 20px auto;
+    
 }
+
+
 
