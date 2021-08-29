@@ -17,5 +17,13 @@
     
 }
 
+.card-title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-text {
+    text-align: center;
+}
 
 
