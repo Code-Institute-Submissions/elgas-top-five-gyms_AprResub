@@ -3,77 +3,60 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>30DayChallenge</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <title>30DayChallenge</title>
     </head>
     <body>
         <header>
-            <nav id="navigation" class="navbar-sm navbar-light">
-                <a class="navbar-brand" href="#">Home</a>
-                <a class="navbar-brand" href="#">Your Plan</a>
+            <nav id="navigation" class="navbar-sm navbar-light active shadow pt-2 mb-2 bg-white rounded">
+                <a class="navbar-brand" href="#navigation">Home</a>
+                <a class="navbar-brand" href="#form-section">Your Plan</a>
+                <a class="navbar-brand" href="#map">Gyms</a>
                 <a class="navbar-brand" href="#">Inspiration</a>
-                <a class="navbar-brand" href="#">Log In</a>
             </nav>
 
             <section>
                 <div class="card bg-dark text-white">
-                    <img class="card-img" src="assets/images/hero-image.jpg" alt="An image of a girl performing a plank outside">
+                    <img class="card-img" src="assets/images/hero-image-1.jpg" alt="People holding bars with weights at the gym">
                     <div class="card-img-overlay">
-                      <h4 class="card-title">Make your own 30 Day Challenge Plan</h4>
-                      <p class="card-text">Get started on your fit journey with a 30 Day Challenge, by picking the exercises you want and to the intensity you desire. It's a great way to initiate a workout disipline. Check out our Inspiraton page for a little more push anytime you need it.
+                      <h1 class="card-title mx-auto text-center shadow">Make your own 30 Day Challenge Plan</h1>
+                      <h4 class="card-text text-center">Get started on your 30 Day Challenge, by picking the exercises you want and to the intensity you desire.</h4>
+                      <p class="card-text text-center">It's a great way to fire up a workout disipline. Check out our Inspiraton page for a little more push anytime you need it.
                         Fill in the form and let's get started!</p>
-                      <p class="card-text"></p>
                     </div>
                 </div>
             </section>
-            
         </header>
+        <br>
         <section id="form-section">
             <form>
-                <h3>Fill in your preferences: </h3>
-                <select class="custom-select custom-select-lg mb-3">
-                    <option selected>Exercises</option>
-                    <option value="1">Squats</option>
-                    <option value="2">Glute bridge</option>
-                    <option value="3">Plank</option>
-                    <option value="4">Push ups</option>
-                </select>
+                <div>
+                    <h4>Select your exercises:</h4>
+                        <button type="button" class="btn btn-light">Squats</button>
+                        <button type="button" class="btn btn-light">Deadlift</button>
+                        <button type="button" class="btn btn-light">Hip Thrusters</button>
+                        <button type="button" class="btn btn-light">Pull-ups</button>
+                        <button type="button" class="btn btn-light">Bicep Curls</button>
+                        <button type="button" class="btn btn-light">Row</button>
+                        <button type="button" class="btn btn-light">Sled push&pull</button>
+                        <button type="button" class="btn btn-light">Lounges</button>
+                        <button type="button" class="btn btn-light">Tricep dips</button>
+                        <button type="button" class="btn btn-light">C-crunch</button>
+                        <button type="button" class="btn btn-light">Plank</button>
+                        <button type="button" class="btn btn-light">Push-ups</button>
 
-                <select class="custom-select custom-select-lg mb-3">
-                    <option selected>Workout goal</option>
-                    <option value="1">Start an exercise rutine</option>
-                    <option value="2">Get toned</option>
-                    <option value="3">Build muscle</option>
-                </select>
-                
-                <select class="custom-select custom-select-lg mb-3">
-                    <option selected>Start date</option>
-                    <option value="1">Today</option>
-                    <option value="2">Monday</option>
-                    <option value="3">Pick another day</option>
-                </select>
-
-                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                    <option selected>Choose...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    </select>
-                
-                    <div class="custom-control custom-checkbox my-1 mr-sm-2">
-                    <input type="checkbox" class="custom-control-input" id="customControlInline">
-                    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
-                    </div>
-                
-                    <button type="submit" class="btn btn-outline btn-lg btn-block">Get Plan</button>
-                
+                    <h4>Select how many exercises per day:</h4>
+                        <button type="button" class="btn btn-light">50</button>
+                        <button type="button" class="btn btn-light">100</button>
+                   </div>
+                <button type="submit" class="btn btn-outline btn-md btn-block shadow">Get Plan</button>
             </form>
-            <section>
-                <div id="map"></div>
-            </section>
+        </section>
+        <section>
+                <div id="map">Map of Gyms in Gothenburg:</div>
+        </section>
         </section>
         <footer>
             <div class="card-footer bg-transparent border-success">

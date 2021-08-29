@@ -1,36 +1,17 @@
-* {
-    font-size: medium;
-    font-weight: bold;
-    color: black;
-    
-}
-
 #navigation {
-    padding: 5px;
-    background-color: #e3f2fd;
     position: sticky;
-}
-
-#form-section {
-    padding: 5px;
-    margin: 20px auto;
-    
-}
-
-.card-title {
-    text-align: center;
-    font-weight: bolder;
-}
-
-.card-text {
-    text-align: center;
+    margin-bottom: 2px;
 }
 
 #map {
     height: 400px;
-    /* The height is 400 pixels */
     width: 100%;
-    /* The width is the width of the web page */
-  }
+    margin-top: 10px;
 
+}
+
+.card-img {
+    opacity: 0.5;
+    max-height: 700px;
+}
 
