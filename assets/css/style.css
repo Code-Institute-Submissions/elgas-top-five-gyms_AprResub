@@ -24,7 +24,13 @@ div.h3 {
     margin: 1px 20px;
 }
 
+.card-text, .card-title {
+    display: block;
+}
+
 footer{
     color: black;
 }
+
+
 
