@@ -16,3 +16,15 @@
     max-height: 800px;
 }
 
+div.h3 {
+    margin-top: 2px;
+}
+
+#form-section {
+    margin: 1px 20px;
+}
+
+footer{
+    color: black;
+}
+
