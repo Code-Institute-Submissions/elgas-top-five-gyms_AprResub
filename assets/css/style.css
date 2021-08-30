@@ -1,6 +1,7 @@
 #navigation {
     position: sticky;
     margin-bottom: 2px;
+    margin-left: 5px;
 }
 
 #map {
@@ -12,6 +13,6 @@
 
 .card-img {
     opacity: 0.5;
-    max-height: 700px;
+    max-height: 800px;
 }
 
