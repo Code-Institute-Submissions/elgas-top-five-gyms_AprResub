@@ -18,7 +18,7 @@
     // Add a marker clusterer to manage the markers.
     new MarkerClusterer(map, markers, {
       imagePath:
-        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 
   }
@@ -31,10 +31,3 @@
     {lat: 57.68309, lng: 11.93458}
         
   ];
-  
-    
-
-
-
-  
-  
