@@ -12,7 +12,6 @@
         <header>
             <nav id="navigation" class="navbar-sm navbar-light active shadow pt-2 mb-2 bg-white rounded">
                 <a class="navbar-brand" href="#navigation">Home</a>
-                <a class="navbar-brand" href="#form-section">Your Plan</a>
                 <a class="navbar-brand" href="#map">Gyms</a>
                 <a class="navbar-brand" href="#">Inspiration</a>
             </nav>
@@ -21,40 +20,41 @@
                 <div class="card bg-dark text-white">
                     <img class="card-img img-fluid" src="assets/images/hero-image-1.jpg" alt="People holding bars with weights at the gym">
                     <div class="card-img-overlay">
-                      <h1 class="card-title mx-auto text-center shadow">Make your own 30 Day Challenge Plan</h1>
-                      <h4 class="card-text text-center">Get started on your 30 Day Challenge, by picking the exercises you want and to the intensity you desire.</h4>
+                      <h1 class="card-title text-center shadow">Top 5 Gyms in Your City</h1>
+                      <h4 class="card-text text-center">Stockholm <i class="fas fa-circle"></i> Gothenburg <i class="fas fa-circle"></i> Malmo</h4>
                     </div>
+                    <section id="city-selection">
+                        <div class="">
+                            <h4>Select your city:</h4>
+                                <button type="button" class="btn btn-light">Stockholm</button>
+                                <button type="button" class="btn btn-light">Gothenburg</button>
+                                <button type="button" class="btn btn-light">Malmo</button>
+                        </div>    
+                    
+                    </section>
                 </div>
             </section>
         </header>
         <br>
-        <section id="form-section">
-            <form>
-                <h3 class="text-center">The Top 5 Gyms in your city</h3>
-                <p class="card-text text-center">It's a great way to fire up a workout disipline. Check out our Inspiraton page for a little more push anytime you need it.
-                    Fill in the form and let's get started!</p>
+        <section id="city-selection">
                 <div>
-                    <h4>Select your exercises:</h4>
-                    <p>We suggest starting with a maximum of 3 exercises for beginners, add more if you are exeperienced at the gym.</p>
-                        <button type="button" class="btn btn-light">Squats</button>
-                        <button type="button" class="btn btn-light">Deadlift</button>
-                        
-                    <h4>Select how many exercises per day:</h4>
-                    <p>Start easy on the first month and build up consequently.</p>
-                        <button type="button" class="btn btn-light">50</button>
-                        <button type="button" class="btn btn-light">100</button>
-                   </div>
-                <button type="submit" class="btn btn-outline btn-md btn-block shadow">Get Plan</button>
-            </form>
+                    <h4>Select your city or search below:</h4>
+                        <button type="button" class="btn btn-light">Stockholm</button>
+                        <button type="button" class="btn btn-light">Gothenburg</button>
+                        <button type="button" class="btn btn-light">Malmo</button>
+                </div>    
+                <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
         </section>
-        <section>
-            <h4>Find your Gym: </h4>
+        <hr>
+        <section id="map-section">
             <div id="map"></div>
-        </section>
         </section>
         <footer>
             <div class="card-footer bg-transparent border-success">
-              <h5>Social media</h5>
+              <p>Follow Us on Our Social Media<p>
               <a href="https://www.facebook.com/" target="_blank">Facebook <i class="fab fa-facebook-square"></i></a>
               <a href="https://www.instagram.com/" target="_blank">Instagram <i class="fab fa-instagram"></i></a>
               <span class="float-right"><small>&copy; Copyright 2021, Elga Smaci</small></span>

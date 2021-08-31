@@ -1,14 +1,18 @@
+*{
+    margin: 5px;
+}
+
 #navigation {
     position: sticky;
     margin-bottom: 2px;
     margin-left: 5px;
 }
 
-#map {
-    height: 400px;
-    width: 100%;
-    margin-top: 10px;
 
+#map {
+    height: 500px;
+    width: 99%;
+    border-radius: 3px;
 }
 
 .card-img {
