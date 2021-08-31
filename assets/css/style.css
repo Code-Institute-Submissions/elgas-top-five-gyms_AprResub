@@ -2,13 +2,6 @@
     margin: 5px;
 }
 
-#navigation {
-    position: sticky;
-    margin-bottom: 2px;
-    margin-left: 5px;
-}
-
-
 #map {
     height: 500px;
     width: 99%;
@@ -20,21 +13,32 @@
     max-height: 800px;
 }
 
-div.h3 {
-    margin-top: 2px;
-}
-
-#form-section {
-    margin: 1px 20px;
-}
-
 .card-text, .card-title {
     display: block;
 }
 
-footer{
-    color: black;
+/* Changing <a> color to fit with the site color scheme */
+
+.city:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.city:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
+.city:hover {
+  color: rgba(255, 0, 0, 0.658);
+  background-color: transparent;
+  text-decoration: underline;
+}
 
-
+.city:active {
+  color: ivory;
+  background-color: transparent;
+  text-decoration: underline;
+}
