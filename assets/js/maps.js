@@ -4,8 +4,9 @@
       center: { lat: 57.708870, lng: 11.974560 },
     });
 
-   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   const labels = ["A" ,"BCDEFGHIJKLMNOPQRSTUVWXYZ"];
     // Add some markers to the map.
+
     const markers = locations.map((location, i) => {
       return new google.maps.Marker({
         position: location,
@@ -20,7 +21,7 @@
   }
   const locations = [
     //Gothenburg locations
-    { lat: 57.70609, lng: 11.96510},
+    {lat: 57.70609, lng: 11.96510},
     {lat: 57.71309002, lng: 12.0051182},
     {lat: 57.715135, lng: 11.996846317},
     {lat: 57.70598, lng: 11.96473326}
