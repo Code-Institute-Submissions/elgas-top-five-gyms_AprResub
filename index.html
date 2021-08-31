@@ -6,49 +6,22 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-        <title>30DayChallenge</title>
+        <title>top-five-gyms</title>
     </head>
     <body>
         <header>
-            <nav id="navigation" class="navbar-sm navbar-light active shadow pt-2 mb-2 bg-white rounded">
-                <a class="navbar-brand" href="#navigation">Home</a>
-                <a class="navbar-brand" href="#map">Gyms</a>
-                <a class="navbar-brand" href="#">Inspiration</a>
-            </nav>
 
-            <section>
-                <div class="card bg-dark text-white">
+            <div class="card bg-dark text-white">
                     <img class="card-img img-fluid" src="assets/images/hero-image-1.jpg" alt="People holding bars with weights at the gym">
                     <div class="card-img-overlay">
                       <h1 class="card-title text-center shadow">Top 5 Gyms in Your City</h1>
-                      <h4 class="card-text text-center">Stockholm <i class="fas fa-circle"></i> Gothenburg <i class="fas fa-circle"></i> Malmo</h4>
-                    </div>
-                    <section id="city-selection">
-                        <div class="">
-                            <h4>Select your city:</h4>
-                                <button type="button" class="btn btn-light">Stockholm</button>
-                                <button type="button" class="btn btn-light">Gothenburg</button>
-                                <button type="button" class="btn btn-light">Malmo</button>
-                        </div>    
-                    
-                    </section>
-                </div>
-            </section>
+                      <h4 class="card-text text-center"> <span><a href="">Stockholm</a></span> <span><a href="">Gothenburg</a></span> <span><a href="">Malmo</a></span></h4>
+                    </div>                
+            </div>
         </header>
-        <br>
-        <section id="city-selection">
-                <div>
-                    <h4>Select your city or search below:</h4>
-                        <button type="button" class="btn btn-light">Stockholm</button>
-                        <button type="button" class="btn btn-light">Gothenburg</button>
-                        <button type="button" class="btn btn-light">Malmo</button>
-                </div>    
-                <form class="form-inline my-2 my-lg-0">
-                <input id="search-input" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-        </section>
+        
         <hr>
+
         <section id="map-section">
             <div id="map"></div>
         </section>
