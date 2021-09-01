@@ -52,6 +52,7 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+No error was found.
 
 -   [W3C Markup Validator](https://validator.w3.org/nu/#l27c34) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - [Results](https://github.com/)

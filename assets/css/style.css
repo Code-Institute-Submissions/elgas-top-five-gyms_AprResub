@@ -42,3 +42,10 @@
   background-color: transparent;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 480px) {
+  .card-img-overlay {
+    height: 20%;
+    width: 110%;
+  }
+}
