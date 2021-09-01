@@ -133,7 +133,7 @@ has created for hosting the website.
 # Credits
 ## Code
     Bootstrap 4.4.1 Library was used throughout the project mainly to make site responsive and appealing.
-    Google Tutorial Library was used throughout the project in order to implement the maps API features.
+    [Google Tutorial](https://developers.google.com/maps/documentation/javascript/marker-clustering) Library was used throughout the project in order to implement the maps API features.
 
 ## Content & Media
 The content was written by the developer.
