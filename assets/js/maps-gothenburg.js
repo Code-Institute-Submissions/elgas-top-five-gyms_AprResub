@@ -1,46 +1,29 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 12,
-    center: { lat: 57.708870, lng: 11.974560 },
+    zoom: 11,
+    center: { lat: 59.32793221198714, lng: 18.05421685247 },
   });
 
- 
-  const contentString = [
-    'Nordic Wellness <a href=#nw1 >Nordic Wellness</a>',
-    'Nordic Kungälv',
-    'odins platsen',
-    'Dom Kyrkan'
-  ];
-  
-  const infowindow = new google.maps.InfoWindow({
-    content: contentString
+ const labels = ["NW Domkyrkan", "NW Almedal", " NW Lindholmen", "Sats Kompassen", "F&S Eriksberg"];
+  // Add some markers to the map.
+  const markers = locations.map((location, i) => {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length],
+    });     
   });
-
-   
-  
-  const marker = new google.maps.Marker({
-    position: {lat: 57.70598, lng: 11.96473326},
-    map,
-    title: "NW",
-  });
-
-  marker.addListener("click", () => {
-    infowindow.open({
-      anchor: marker,
-      map,
-      shouldFocus: false,
-      });
-  });
-  
-  marker = new google.maps.Marker({
-    position: {lat: 57.715135, lng: 11.996846317},
-    map,
-    tittle: 
-  });
-  
- 
-
+  // Add a marker clusterer to manage the markers.
+  new MarkerClusterer(map, markers, {
+    imagePath:
+    "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  }); 
 }
 
-
-
+//Gym locations in Stockholm
+const locations = [
+  {lat: 57.70948350247679, 11.966018079708562},
+  {lat: 57.685082116118664, 11.997947095309051},
+  {lat: 57.714213120703796, 11.943015368520108},
+  {lat: 57.70830571536213, 11.96910781035166},
+  {lat: 57.70624944789225, 11.918982602040021}
+ ];
