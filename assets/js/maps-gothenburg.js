@@ -1,7 +1,7 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 11,
-    center: { lat: 59.32793221198714, lng: 18.05421685247 },
+    center: {lat: 57.724890200639514, lng: 11.972090215756591},
   });
 
  const labels = ["NW Domkyrkan", "NW Almedal", " NW Lindholmen", "Sats Kompassen", "F&S Eriksberg"];
@@ -21,9 +21,9 @@ function initMap() {
 
 //Gym locations in Stockholm
 const locations = [
-  {lat: 57.70948350247679, 11.966018079708562},
-  {lat: 57.685082116118664, 11.997947095309051},
-  {lat: 57.714213120703796, 11.943015368520108},
-  {lat: 57.70830571536213, 11.96910781035166},
-  {lat: 57.70624944789225, 11.918982602040021}
+  {lat: 57.70948350247679, lng: 11.966018079708562},
+  {lat: 57.685082116118664, lng: 11.997947095309051},
+  {lat: 57.714213120703796, lng: 11.943015368520108},
+  {lat: 57.70830571536213, lng: 11.96910781035166},
+  {lat: 57.70624944789225, lng: 11.918982602040021}
  ];
