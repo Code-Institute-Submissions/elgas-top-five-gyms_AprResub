@@ -63,8 +63,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I would want the website to be clear and easy on how it works.
 
-        1.The main points are made immediately with the hero image, with clickabel links to the cities page with the list of gyms.
-        2. The user has two options, click the buttons or scroll down to see a map with markers of the three cities.
+        The main points are made immediately with the hero image, with clickabel links to the cities page with the list of gyms.
+        The user has two options, click the buttons or scroll down to see a map with markers of the three cities.
 
     2. As a First Time Visitor, I would like to see the best gyms that the website mentions.
 
