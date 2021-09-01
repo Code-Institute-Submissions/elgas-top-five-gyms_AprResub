@@ -1,10 +1,10 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 5,
-    center: { lat: 57.708870, lng: 11.974560 },
+    zoom: 11,
+    center: { lat: 55.56870832452651, lng: 13.02345844429232},
   });
 
- const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ const labels = ["F&S Johannelust", "F&S Helenholm", "F&S Ön", "NW Fair Play", "NW Vellinge"];
   // Add some markers to the map.
   const markers = locations.map((location, i) => {
     return new google.maps.Marker({
@@ -18,13 +18,12 @@ function initMap() {
     "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   }); 
 }
+
 const locations = [
-  //Gothenburg locations
-  { lat: 57.70609, lng: 11.96510},
-  {lat: 57.71309002, lng: 12.0051182},
-  {lat: 57.715135, lng: 11.996846317},
-  {lat: 57.70598, lng: 11.96473326}
-  
-  //Stockholm locations
-  //Malmo locations
- ];
+
+  {lat: 55.61183531512725, lng: 13.047551216797158},
+  {lat: 55.59011166022619, lng: 13.011845650964355},
+  {lat: 55.59748353435578, lng: 12.922581736382345},
+  {lat: 55.59538408704672, lng: 12.961033517873245},
+  {lat: 55.46826082921328, lng: 13.018522352253543}
+];
