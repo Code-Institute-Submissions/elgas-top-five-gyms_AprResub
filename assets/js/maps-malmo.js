@@ -1,3 +1,5 @@
+// credit: Google tutorial for Map API Customization, sligltly edited to fit this project.
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 8,
