@@ -1,4 +1,4 @@
- // credit: Google tutorial for Map API Customization, sligltly edited to fit this project.
+ // credit: Google tutorial for Map API Customization, slightly edited to fit this project.
  
  function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
@@ -6,7 +6,7 @@
       center: { lat: 57.708870, lng: 11.974560 },
     });
 
-   const labels = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+   const labels = ["1","2","3","4","5"];
     // Add some markers to the map.
 
     const markers = locations.map((location, i) => {

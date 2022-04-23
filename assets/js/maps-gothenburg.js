@@ -1,8 +1,8 @@
-// credit: Google tutorial for Map API Customization, sligltly edited to fit this project.
+// credit: Google tutorial for Map API Customization, slightly edited to fit this project.
 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 11,
+    zoom: 12,
     center: {lat: 57.724890200639514, lng: 11.972090215756591},
   });
 
