@@ -141,5 +141,6 @@ The content was written by the developer.
 Free image source Unsplash
 
 ## Acknowledgements
+Studdent support team from CodeInstitu7te for their support and motivation.
 My Mentor for continuous helpful guidance and support.
 
