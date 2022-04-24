@@ -4,7 +4,7 @@
 
 The Top 5 Gyms website offers the possibility for the user to see the best gyms available in the city of Stockholm, Gothenburg and Malmo (Sweden).
 
-    ![](top5gyms-responsivetest.jpg)
+![Overview](top5gyms-responsivetest.jpg)
 
 - ## User Stories
 
