@@ -25,7 +25,7 @@ let text = "";
 
 // Iterate through the gyms
 
-for (gyms of listOfGymsStockholm){
+for (let gyms of listOfGymsStockholm){
 let addButtons = `
     <button type="button" class="btn btn-light"><a href="${gyms.href}" target="_blank">${gyms.name}</a></button>
     `;

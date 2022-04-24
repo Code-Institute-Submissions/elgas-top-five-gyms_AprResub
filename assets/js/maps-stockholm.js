@@ -6,7 +6,7 @@ function initMap() {
     center: { lat: 59.32793221198714, lng: 18.05421685247 },
   });
 
- const labels = ["NW Odenplan", "NW Drotningsgatan", " Sats SoFo", "Sats Sportpalaset", "Sats Stureplan"];
+ const labels = ["NW", "NW", " Sats", "Sats", "Sats"];
   // Add some markers to the map.
   const markers = locations.map((location, i) => {
     return new google.maps.Marker({

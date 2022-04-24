@@ -6,7 +6,7 @@ function initMap() {
     center: { lat: 55.56870832452651, lng: 13.02345844429232},
   });
 
- const labels = ["F&S Johannelust", "F&S Helenholm", "F&S Ön", "NW Fair Play", "NW Vellinge"];
+ const labels = ["F&S", "F&S", "F&S", "NW", "NW"];
   // Add some markers to the map.
   const markers = locations.map((location, i) => {
     return new google.maps.Marker({

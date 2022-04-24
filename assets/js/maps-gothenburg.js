@@ -6,7 +6,7 @@ function initMap() {
     center: {lat: 57.724890200639514, lng: 11.972090215756591},
   });
 
- const labels = ["NW Domkyrkan", "NW Almedal", " NW Lindholmen", "Sats Kompassen", "F&S Eriksberg"];
+ const labels = ["NW", "NW", " NW", "Sats", "F&S"];
   // Add some markers to the map.
   const markers = locations.map((location, i) => {
     return new google.maps.Marker({
