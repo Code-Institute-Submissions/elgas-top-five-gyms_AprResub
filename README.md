@@ -1,15 +1,14 @@
 <h1 align="center">Top 5 Gyms in Your City Website</h1>
 
- [View the live project here.](https://elgas.github.io/top-five-gyms/)
-
 The Top 5 Gyms website offers the possibility for the user to see the best gyms available in the city of Stockholm, Gothenburg and Malmo (Sweden).
+[View the live project here.](https://elgas.github.io/top-five-gyms/) ![Overview](top5gyms-responsivetest.jpg)
 
-![Overview](top5gyms-responsivetest.jpg)
+
 
 - ## User Stories
 
     -   #### First time user
-        1. As a firts time user, I would want the website to be clear and easy on how it works.
+        1. As a first time user, I would want the website to be clear and easy on how it works.
         2. As a first time user, I would like to see the best gyms that the website mentions.
         3. As a first time user, I want the website to redirect to the best gyms in Swedens biggest cities.
         4. As a first time user, I want to see marked gyms on the map in the city of Stockholm, Gothenburg and Malmo, so I can decide which one is in the part of the city I like.
@@ -17,7 +16,7 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
     -    #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about any updates on the gyms in my city.
-        2. As a Returning Visitor, I want to find see if the gym I am at is on the top list.
+        2. As a Returning Visitor, I want to see if the gym I am at is on the top list.
     
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any new gyms in my city.
@@ -27,11 +26,11 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
     -   #### Colour Scheme
         -   The two main colours are used, black and white, in contrast to one another.
     -   #### Imagery
-        -   The Background hero image is used to catch the user's attention immediately. At the same time it convays that this website is designed for a topic related to gyms. The image has a sense intrigue and simplicity.
+        -   The Background hero image is used to catch the user's attention immediately. At the same time it conveys that this website is designed for a topic related to gyms. The image has a sense of intrigue and simplicity.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - ![](https://github.com/elgas/top-five-gyms/blob/3aef83bd5f26ccbaaebb4cb5872c2015743306fd/wireframe.jpg)
+    -   Homepage Wireframe - ![](https://github.com/elgas/top-five-gyms/blob/3aef83bd5f26ccbaaebb4cb5872c2015743306fd/wireframe.jpg)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -44,12 +43,12 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the project's code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 1. [Places API key:](https://developers.google.com/maps/documentation/embed/get-api-key)
-    - Google maps Api key was used in oreder to display a map on each page, and markers for locations.
-    - Google turorial was used during the coding process.
+    - Google maps Api key was used in order to display a map on each page, and markers for locations.
+    - Google tutorial was used during the coding process.
 
 ## Testing
 
@@ -57,7 +56,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 No error was found.
 
 -   [W3C Markup Validator](https://validator.w3.org/nu/#l27c34) - ![Results](html-test.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - ![Results](css-validator.jpg))
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - ![Results](css-validator.jpg)
 -   [Java Script Validator](https://jshint.com/) - ![Maps](jstest.jpg),
  ![Loop](javascript-test.jpg)
 
@@ -67,26 +66,26 @@ No error was found.
 
         1. As a First Time Visitor, I would want the website to be clear and easy on how it works.
 
-        The main points are made immediately with the hero image, with clickabel links to the cities page with the list of gyms.
+        The main points are made immediately with the hero image, with clickable links to the cities page with the list of gyms.
         The user has two options, click the buttons or scroll down to see a map with markers of the three cities.
 
         2. As a First Time Visitor, I would like to see the best gyms that the website mentions.
 
-        When the user clicks the city names buttons, they are ridirected to the page with the list of gyms of that city.
+        When the user clicks the city names buttons, they are redirected to the page with the list of gyms of that city.
 
         3. As a First Time Visitor, I want the website to redirect to the best gyms in Swedens biggest cities.
-        Once the user is on the specific city page, they can see a list of gyms, and when they click on one, they are ridirected to the gym's webpage.
+        Once the user is on the specific city page, they can see a list of gyms, and when they click on one, they are redirected to the gym's webpage.
 
 -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about any updates on the gyms in my city and see if the gym I am at is on the top list.
 
-        A returned user can check the list of the gyms showned, and see if they want to check another gym mentioned in this website as a top one.
+        A returned user can check the list of the gyms showed, and see if they want to check another gym mentioned in this website as a top one.
 
     
 -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there are any new gyms inn my city.
+        1. As a Frequent User, I want to check to see if there are any new gyms in my city.
 
         The user can do this by checking the list of their city.
 
@@ -104,7 +103,7 @@ No error was found.
 
 ### Fixed Bugs
 
--   On small devices the text on the Hero Image used to overflow, by adding media queiries now the text fits the container and it's responsive.
+-   On small devices the text on the Hero Image used to overflow, by adding media queries now the text fits the container and it's responsive.
     
           
 ## Technologies
@@ -121,11 +120,11 @@ The project was deployed to GitHub Pages using the following steps:
 - Log in to GitHub and locate and open the wanted GitHub repository.
 - In the GitHub repository navigate to the Settings tab.
 - From the source section drop-down menu, select the Master Branch
-- Next select folder and click on the save button. 
+- Next select the folder and click on the save button. 
 - The page automatically refreshes with a message to indicate 
 the successful deployment.
 - Wait a few minutes and then you can click the link that Github 
-has created for hosting the website.
+has been created for hosting the website.
 
 ## Clonig
 
@@ -137,7 +136,7 @@ has created for hosting the website.
 
 # Credits
 ## Code
-    Bootstrap 4.4.1 Library was used throughout the project mainly to make site responsive and appealing.
+    Bootstrap 4.4.1 Library was used throughout the project mainly to make the website site responsive and appealing.
     [Google Tutorial](https://developers.google.com/maps/documentation/javascript/marker-clustering) Library was used throughout the project in order to implement the maps API features.
 
 ## Content & Media
