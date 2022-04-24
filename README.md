@@ -4,6 +4,8 @@
 
 The Top 5 Gyms website offers the possibility for the user to see the best gyms available in the city of Stockholm, Gothenburg and Malmo (Sweden).
 
+    ![](top5gyms-responsivetest.jpg)
+
 - ## User Stories
 
     -   #### First time user
@@ -55,39 +57,40 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 No error was found.
 
 -   [W3C Markup Validator](https://validator.w3.org/nu/#l27c34) - ![Results](html-test.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - ![Results](https://github.com/)
--   [Java Script Validator](https://jshint.com/) - ![Maps](jstest.jpg), ![Loop](javascript-test.jpg)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - ![Results](css-validator.jpg))
+-   [Java Script Validator](https://jshint.com/) - ![Maps](jstest.jpg),
+ ![Loop](javascript-test.jpg)
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I would want the website to be clear and easy on how it works.
+        1. As a First Time Visitor, I would want the website to be clear and easy on how it works.
 
         The main points are made immediately with the hero image, with clickabel links to the cities page with the list of gyms.
         The user has two options, click the buttons or scroll down to see a map with markers of the three cities.
 
-    2. As a First Time Visitor, I would like to see the best gyms that the website mentions.
+        2. As a First Time Visitor, I would like to see the best gyms that the website mentions.
 
         When the user clicks the city names buttons, they are ridirected to the page with the list of gyms of that city.
 
-    3. As a First Time Visitor, I want the website to redirect to the best gyms in Swedens biggest cities.
+        3. As a First Time Visitor, I want the website to redirect to the best gyms in Swedens biggest cities.
         Once the user is on the specific city page, they can see a list of gyms, and when they click on one, they are ridirected to the gym's webpage.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find information about any updates on the gyms in my city and see if the gym I am at is on the top list.
+        1. As a Returning Visitor, I want to find information about any updates on the gyms in my city and see if the gym I am at is on the top list.
 
         A returned user can check the list of the gyms showned, and see if they want to check another gym mentioned in this website as a top one.
 
     
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any new gyms inn my city.
+        1. As a Frequent User, I want to check to see if there are any new gyms inn my city.
 
         The user can do this by checking the list of their city.
 
-    2. As a Frequent User, I want to check to see if there are any new features to the website.
+        2. As a Frequent User, I want to check to see if there are any new features to the website.
 
         The user would already be familiar with the website layout and will see any new features added in the future.
 
@@ -97,7 +100,7 @@ No error was found.
 -   The Website was tested on Google Chrome, Internet Explorer browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 5.
 -   Manually tested all links to ensure that all websites were linking correctly to the respective gyms.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Lighthouse testing ![Result](lighthouse-result.jpg)
 
 ### Fixed Bugs
 
@@ -124,6 +127,14 @@ the successful deployment.
 - Wait a few minutes and then you can click the link that Github 
 has created for hosting the website.
 
+## Clonig
+
+- Log in to GitHub and locate the GitHub repository that you want to clone.
+- Click the "Code" button to copy the given URL.
+- Open "Git Bash" and change the current working directory to the location where you want the cloned directory.
+- Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone. (type: git clone {repository URL})
+- git-clone: clones a repository into a new directory.
+
 # Credits
 ## Code
     Bootstrap 4.4.1 Library was used throughout the project mainly to make site responsive and appealing.
@@ -134,6 +145,6 @@ The content was written by the developer.
 Free image source [Unsplash](unsplash.com)
 
 ## Acknowledgements
-The team from CodeInstitu7te for their support and motivation.
+The team from CodeInstitute for their support and motivation.
 My Mentor for continuous helpful guidance and support.
 
