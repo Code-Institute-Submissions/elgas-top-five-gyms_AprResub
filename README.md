@@ -1,6 +1,6 @@
 <h1 align="center">Top 5 Gyms in Your City Website</h1>
 
-[View the live project here.]()
+ [View the live project here.](https://elgas.github.io/top-five-gyms/)
 
 The Top 5 Gyms website offers the possibility for the user to see the best gyms available in the city of Stockholm, Gothenburg and Malmo (Sweden).
 
@@ -29,7 +29,7 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/elgas/top-five-gyms/blob/3aef83bd5f26ccbaaebb4cb5872c2015743306fd/wireframe.jpg)
+    -   Home Page Wireframe - ![](https://github.com/elgas/top-five-gyms/blob/3aef83bd5f26ccbaaebb4cb5872c2015743306fd/wireframe.jpg)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -54,9 +54,9 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 No error was found.
 
--   [W3C Markup Validator](https://validator.w3.org/nu/#l27c34) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - [Results](https://github.com/)
--   [Java Script Validator](https://jshint.com/) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/nu/#l27c34) - ![Results](html-test.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - ![Results](https://github.com/)
+-   [Java Script Validator](https://jshint.com/) - ![Maps](jstest.jpg), ![Loop](javascript-test.jpg)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -95,22 +95,15 @@ No error was found.
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 5.
+-   Manually tested all links to ensure that all websites were linking correctly to the respective gyms.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Fixed Bugs
 
--   On some mobile devices the text on the Hero Image moves out of the image section in some cases.
+-   On small devices the text on the Hero Image used to overflow, by adding media queiries now the text fits the container and it's responsive.
     
-    
-## Features
-
--   Responsive on most device sizes
-
--   Interactive elements
-
-      
+          
 ## Technologies
 
 ### Language Used
@@ -138,9 +131,9 @@ has created for hosting the website.
 
 ## Content & Media
 The content was written by the developer.
-Free image source Unsplash
+Free image source [Unsplash](unsplash.com)
 
 ## Acknowledgements
-Studdent support team from CodeInstitu7te for their support and motivation.
+The team from CodeInstitu7te for their support and motivation.
 My Mentor for continuous helpful guidance and support.
 
