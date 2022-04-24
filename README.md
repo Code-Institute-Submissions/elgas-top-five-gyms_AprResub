@@ -31,7 +31,7 @@ The Top 5 Gyms website offers the possibility for the user to see the best gyms 
 *   ### Wireframes
 
     -   Homepage Wireframe - ![](https://github.com/elgas/top-five-gyms/blob/3aef83bd5f26ccbaaebb4cb5872c2015743306fd/wireframe.jpg)
-    -   Page wireframe of the selected city ![Wireframe](city-pages-wireframe.jpg)
+    -   Page wireframe of the selected city- ![Wireframe](city-pages-wireframe.jpg)
 
 ### Frameworks, Libraries & Programs Used
 
